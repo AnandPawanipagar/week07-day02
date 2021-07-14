@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 03</title>
+</head>
+
+<body>
+    <div>
+        <p>Web Development </p>
+        <p>Frontend Developer</p>
+        <p>Backend Developer</p>
+        <p>Software Engineer</p>
+        <p>Devops Engineer</p>
+        <p>Single page application</p>
+        <p>React</p>
+        <p>Node Js</p>
+        <p>Data structures and algo</p>
+        <p>Machine Learning </p>
+        <p> Artificial Intelligence</p>
+    </div>
+    <script type="text/javascript">
+        let paragraphContent = [];
+        let matches = document.getElementsByTagName('p')
+
+        for (let i = 0; i < matches.length; i++) {
+            paragraphContent[i] = matches[i].innerHTML
+        }
+        console.log(paragraphContent);
+    </script>
+</body>
+
+</html>
